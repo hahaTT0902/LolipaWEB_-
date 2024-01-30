@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <title>独立服务器 - {$setting.company_name}</title>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="/themes/web/Lolipa/assets/images/favicon.png"/>
+    <link rel="stylesheet" href="/themes/web/Lolipa/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="/themes/web/Lolipa/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/themes/web/Lolipa/assets/css/responsive.css" type="text/css">
+    <script src="/themes/web/Lolipa/js/jquery.min.js"></script>
+    <script src="/themes/web/Lolipa/js/popper.min.js"></script>
+    <script src="/themes/web/Lolipa/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script> $(document).ready(function(){ tippy('.tippy', { theme: 'light', size: 'big', arrow: true }) }); </script>
+</head>
+<body>
+    <!-- HEADER -->
+<div class="dedicated-sub-section">
+    <header class="header" id="main-topbar">
+        <div class="top-bar pb-2 pt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                       <div class="topbar-setting">
+                            <a class="demo link-hover-bg"  href="https://www.idc1680.com"><span>更多模板</span></a>
+                       </div>
+                    </div>
+                    <div class="social-settting col-lg-6 col-md-6 col-sm-6 pr-xl-1 ">
+                        <ul class="social list-unstyled list-inline float-right mb-0">
+                            <li><i class="social-setting fab fa-blogger"></i><a class="link-hover-bg" href="/cart/index.html">云服务器</a></li>
+                            <li><i class="social-setting fas fa-server"></i><a class="link-hover-bg" href="/cart/index.html">云虚拟主机</a></li>
+                            <li><i class="social-setting fas fa-envelope"></i><a class="link-hover-bg" href="/contact.html">联系我们</a></li>
+                            <li><!--<i class="phone fas fa-phone-volume"></i>--><span><a class="phone link-hover-bg" href="/Other//index.html"></a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- MAIN HEADER -->      
+    <div class="main-header about pt-md-1 pb-md-1 pt-0 pb-0" id="main-header">
+        <div class="container pl-xl-0 pr-xl-0 pl-lg-0 pr-lg-0 pl-md-0 pr-md-0 pl-sm-0 pr-sm-0 pl-0 pr-0">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="/index.html">
+                    <figure class="navbar-logo">
+                    <img class="img-fluid" src="{$setting.web_logo}" alt="">
+                    </figure>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="/activity.html">最新活动</a>
+                        </li>                         
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">主页<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="/about.html">关于我们</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                产品购买
+                               </a>
+                            <div class="dropdown-menu list-unstyled hosting-dropdown" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu-list list-unstyled">
+                                    <li> <a class="dropdown-item scroll hosting-menu" href="/shared.html"><img src="/themes/web/Lolipa/assets/images/dropdown-menu-img-1.png" alt="">云虚拟主机</a></li>
+                                    <li class="active"> <a class="dropdown-item scroll server-menu" href="/dedicated.html"><img src="/themes/web/Lolipa/assets/images/dropdown-menu-img-2.png" alt="">独立服务器</a></li>
+                                    <li> <a class="dropdown-item scroll vps-menu" href="/vps.html"><img src="/themes/web/Lolipa/assets/images/dropdown-menu-img-3.png" alt="">弹性云服务器</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="/domain.html">域名注册</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="/reseller.html">成为代理</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="/contact.html">联系我们</a>
+                        </li>
+                        <li class="nav-item">
+                                                                <a class="navbar-btn nav-link scroll button-effect" target="_blank" href="/register/index.html">注册/登录</a>
+                                                        </li>
+                    </ul>
+                </div>
+              </nav>  
+            </div> 
+        </div>
+    </header>
+
+
+    <!-- DEDICATED-BANNER -->
+    <section class="dedicated-banner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 contact-us-banner-text-setting">
+                    <div class="dedicated-banner-text text-white">
+                        <h1 class="mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3">独立服务器</h1>
+                        <p class="mb-xl-5 mb-lg-5 mb-md-4 mb-sm-4 mb-3">使用完全独立的CPU、SSD硬盘和内存为您部署云实例，适应高要求业务</p>
+                    </div>
+                    <div>
+                        <ul class="text-white list-unstyled">
+                            <li class="mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2 mb-2"><i class="fas fa-check-circle"></i> 全天在线, 24/7 小时全面的技术支持</li>
+                            <li class="mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2 mb-2"><i class="fas fa-check-circle"></i> 具有根访问权限的裸机服务器可实现完全控制</li>
+                            <li class="mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2 mb-2"><i class="fas fa-check-circle"></i> 具有SSD/HDD硬盘存储的灵活服务器配置</li>
+                        </ul>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+</div>
+               
+<!-- DEDICATED-SERVER-PLAN-BOX -->
+<section class="dedicated-server-plan-box-section">
+    <div class="container">
+        <div class="dedicated-server-plan-box-section-inner">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 mb-xl-0 mb-lg-0 mb-md-4 mb-sm-4 mb-3">
+                <div class="dedicated-server-plan-box">
+                    <div class="dedicated-server-plan-box-setting text-md-center float-xl-none float-lg-none float-md-left float-sm-left">
+                        <h4>Xeon E5-4655 v3*2</h4>
+                        <br />
+                        <div>
+                         <h2 class="mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2 mb-2">￥300<span>.99</span><small class="dedicated-server-pricing">/月</small></h2>
+                         <p class="dedicated-server-plan-box-text"><del>￥400.99</del></p>
+                         <p>全程7折起，火爆促销</p>
+                        </div>
+                        <div class="dedicated-button mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3 mb-3">
+                         <a class="dedicated-btn button-effect" href="/cart/index.html">现在购买</a>
+                        </div>
+                     </div>
+                     <ul class="list-unstyled float-xl-none float-lg-none float-md-right float-sm-right mb-0">
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-1.svg" alt="4 cores @ 3.4 GHz"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">12核48线程 @ 3.20 GHz</span></li>
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-2.svg" alt="16 GB DDR4"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">32 GB DDR4 2400T</span></li>
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-3.svg" alt="4 x 500 GB HDD"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">240 GB SSD (U.2)</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mb-xl-0 mb-lg-0 mb-md-4 mb-sm-4 mb-3">
+                <div class="dedicated-server-plan-box variation-2">
+                    <div class="dedicated-server-plan-box-setting text-md-center float-xl-none float-lg-none float-md-left float-sm-left">
+                        <h4>Xeon E5-4655 v3*2</h4>
+                        <br />
+                        <div>
+                         <h2 class="mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2 mb-2">￥400<span class="dedicated-server-price">.99</span><small class="dedicated-server-pricing">/月</small></h2>
+                         <p class="dedicated-server-plan-box-text"><del>￥500.99</del></p>
+                         <p>年度最火爆，大型业务必备</p>
+                        </div>
+                        <div class="dedicated-button mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3 mb-3">
+                         <a class="dedicated-btn button-effect" href="/cart/index.html">现在购买</a>
+                        </div>
+                     </div>
+                     <ul class="list-unstyled float-xl-none float-lg-none float-md-right float-sm-right mb-0">
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-4.svg" alt="6 cores @ 3.4 GHz"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">12核心48线程 @ 3.20 GHz</span></li>
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-5.svg" alt="32 GB DDR4"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">64 GB DDR4 2400T</span></li>
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-6.svg" alt="2 x 480 GB SSD"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">240 GB SSD (U.2)</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="dedicated-server-plan-box variation-3">
+                    <div class="dedicated-server-plan-box-setting text-md-center float-xl-none float-lg-none float-md-left float-sm-left">
+                        <h4>Xeon E5-2637 v3*2</h4>
+                        <br />
+                        <div>
+                         <h2 class="mb-xl-3 mb-lg-3 mb-md-3 mb-sm-2 mb-2">￥300<span class="dedicated-server-price">.99</span><small class="dedicated-server-pricing">/月</small></h2>
+                         <p class="dedicated-server-plan-box-text"><del>￥400.99</del></p>
+                         <p>海量内存，大带宽必备</p>
+                        </div>
+                        <div class="dedicated-button mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3 mb-3">
+                         <a class="dedicated-btn button-effect" href="/cart/index.html">现在购买</a>
+                        </div>
+                     </div>
+                     <ul class="list-unstyled float-xl-none float-lg-none float-md-right float-sm-right mb-0">
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-7.svg" alt="Dual 16 cores @ 2.3 GHz"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">8核16线程 @ 3.70 GHz</span></li>
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-8.svg" alt="128 GB DDR4"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">64 GB DDR4 2133P</span></li>
+                        <li><figure class="float-left dedicated-list-icon"> <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-img-9.svg" alt="4 x 1 TB NVMe"></figure><span class="specs pl-xl-3 pl-lg-3 pl-md-3 pl-sm-3 pl-3">240 GB SSD (U.2)</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>  
+    </div>
+    </section> 
+   
+   <!-- DEDICATED-HOSTING-PLAN --> 
+   <section class="dedicated-hosting-plan-section text-white">
+    <div class="container">
+       <div class="dedicated-hosting-plan-text text-center">
+        <h1 class="mb-md-5 mb-sm-4 mb-3">服务器之王 <span> 独立服务器</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 text-lg-left text-center">
+                <figure class="dedicated-hosting-plan-image">
+                    <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-hosting-plan-img.svg" alt="">
+                </figure>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 dedicated-hosting-plan-setting text-lg-left text-center">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <figure class="mb-xl-none mb-lg-none mb-md-none mb-sm-4 mb-4 dedicated-hosting-plan-image-list">
+                            <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-hosting-plan-img-1.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-lg-10">
+                        <h4 class="mb-lg-4 mb-md-4 mb-sm-3 mb-3"> 完全无任何限制</h4>
+                        <p class="mb-md-5 mb-sm-4 mb-3"> 具有根访问权限的裸机服务器可实现完全控制</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <figure class="mb-xl-none mb-lg-none mb-md-none mb-sm-4 mb-4 dedicated-hosting-plan-image-list">
+                            <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-hosting-plan-img-2.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-lg-10">
+                        <h4 class="mb-lg-4 mb-md-4 mb-sm-3 mb-3">99.9% 服务器在线率</h4>
+                        <p class="mb-md-5 mb-sm-4 mb-3">服务器的可靠性至关重要，这将影响到业务的进行，目前我们已经实现该目标</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <figure class="mb-xl-none mb-lg-none mb-md-none mb-sm-4 mb-4 dedicated-hosting-plan-image-list">
+                            <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-hosting-plan-img-3.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-lg-10">
+                        <h4 class="mb-lg-4 mb-md-4 mb-sm-3 mb-3">DDoS 保护</h4>
+                        <p class="mb-0">采用集群式的高防防流量攻击技术，最高提高100 Gbps防御，有效保障业务不受影响</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>    
+    
+ <!-- DEDICATED SERVER FEATURES -->
+    <section class="dedicated-server-features-section">   
+        <div class="container">
+        <div class="dedicated-server-features-section-text text-center">
+            <h1 class="mb-md-4 mb-sm-3 mb-2">我们可信赖的产品服务</h1>
+            <p>在提供专业云计算服务的同时，还将聚集云计算行业产业链各环节优势资源，实现多方共赢。</p>
+        </div>
+            <div class="dedicated-server-features-plan-box">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <figure class="text-center dedicated-server-feature-network-img dedicated-server-feature-image-list">
+                            <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-server-feature-network-img.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 pt-lg-4 pt-sm-3 pt-0 text-lg-left text-center">
+                        <h4 class="mb-3">全球网络</h4>
+                        <p class="mb-xl-0 mb-lg-0 mb-5">不仅快速，而且安全，最大可提供300G硬防能力，轻松抵御DDoS、CC等恶意攻击</p>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 pt-lg-4 pt-sm-3 pt-2 dedicated-server-features-section-setting-2 text-lg-left text-center">
+                        <h4 class="mb-3">云虚拟化技术</h4>
+                        <p class="mb-xl-0 mb-lg-0 mb-5">资源调度算法，搭配云监控自动化运维。三层存储提升磁盘性能保护数据安全</p>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 dedicated-server-features-section-setting">
+                        <figure class="text-center dedicated-server-feature-technology-img dedicated-server-feature-image-list">
+                            <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-server-feature-technology-img.svg" alt="">
+                        </figure>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <figure class="text-center mb-lg-0 dedicated-server-feature-control-panel-img dedicated-server-feature-image-list">
+                            <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-server-feature-control-panel-img.svg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 pt-lg-4 pt-sm-3 pt-2 text-lg-left text-center">
+                        <h4 class="mb-3">强大的控制面板</h4>
+                        <p>为您提供了智能控制中心对云服务器进行管理。您可对云服务器进行开机、关机、重置密码、重装系统等操作。.</p>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+<!-- DEDICATED-SERVER-SUPPORT -->
+<section class="dedicated-server-support-plan-box-section text-center">
+    <div class="container">
+    <div class="dedicated-server-support-plan-box-section-text text-white">
+        <h1 class="mb-md-4 mb-3">以下是云服务器和独立服务器</h1>
+        <p>下表总结了独立服务器和完云服务器之间的主要区别</p>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12  mb-md-0 mb-4">
+                <div class="dedicated-server-support-plan-box">
+                    <div class="dedicated-server-support-plan-box-setting ">
+                        <figure class="mb-xl-5 mb-lg-4 mb-3 dedicated-server-support-image-list">
+                            <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-server-support-img-1.svg" alt="">
+                        </figure>
+                        <h4 class="mb-lg-4 mb-3">弹性云服务器</h4>
+                        <p>100%无忧服务器管理</p>
+                    </div>
+                     <ul class="list-unstyled">
+                        <li><span class="specs">简单易上手的控制面板</span></li>
+                        <li><span class="specs">随时管理硬件和网络</span></li>
+                        <li><span class="specs">24/7/365 技术支持</span></li>
+                        <li><span class="specs">掌握服务器上的根访问权限</span></li>
+                        <li><span class="specs">服务器虚拟化技术更加安全</span></li>
+                    </ul>
+                    <div class="dedicated-support-button">
+                        <a class="dedicated-support-btn button-effect" href="/cart/index.html">现在购买</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                <div class="dedicated-server-support-plan-box">
+                    <div class="dedicated-server-support-plan-box-setting">
+                        <figure class="mb-xl-5 mb-lg-4 mb-3 dedicated-server-support-image-list">
+                            <img class="img-fluid" src="/themes/web/Lolipa/assets/images/dedicated-server-support-img-2.svg" alt="">
+                        </figure>
+                        <h4 class="mb-lg-4 mb-3">独立服务器</h4>
+                        <p>自行配置自定义服务器</p>
+                    </div>
+                     <ul class="list-unstyled">
+                        <li><span class="specs">在线命令行管理</span></li>
+                        <li><span class="specs">随时管理硬件和网络</span></li>
+                        <li><span class="specs">自由操作选择</span></li>
+                        <li><span class="specs">完全独立的根访问权限</span></li>
+                        <li><span class="specs">独享全部资源</span></li>
+                    </ul>
+                    <div class="dedicated-support-button">
+                        <a class="dedicated-support-btn  variation-2 button-effect" href="/cart/index.html">现在购买</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-1"></div>
+        </div>
+    </div>    
+</section> 
+
+<br /><br />
+<!-- CONTACT -->
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <a href="/submitticket/index.html">
+                    <div class="contact-planbox text-white">
+                        <div class="row">
+                        <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12">
+                        <figure class="contact-image mb-0">
+                           <img class="img-fluid" src="/themes/web/Lolipa/assets/images/contact-img-1.svg" alt="">
+                        </figure>
+                        </div> 
+                        <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 pl-xl-0">  
+                        <h4 class="mb-xl-4 mb-lg-3 mb-md-3 mb-sm-2">技术支持</h4>
+                        <p>在线客服 &amp; 完美的解决方案</p>
+                        </div>
+                        </div>
+                    </div>
+                </a>    
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <a href="/submitticket/index.html">
+                    <div class="contact-planbox text-white contact-planbox-variation-2">
+                        <div class="row">
+                        <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12">
+                            <figure class="contact-image mb-0">
+                                <img class="img-fluid" src="/themes/web/Lolipa/assets/images/contact-img-2.svg" alt="">
+                            </figure>
+                        </div> 
+                        <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 pl-xl-0">  
+                        <h4 class="mb-xl-4 mb-lg-3 mb-md-3 mb-sm-2">工单系统</h4>
+                        <p>资深工程师为您接单</p>
+                        </div>
+                        </div>
+                    </div>
+                </a> 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <a href="/knowledgebase/index.html">
+                    <div class="contact-planbox text-white contact-planbox-variation-3"> 
+                        <div class="row">
+                        <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12">
+                            <figure class="contact-image mb-0">
+                                <img class="img-fluid" src="/themes/web/Lolipa/assets/images/contact-img-3.svg" alt="">
+                            </figure>
+                        </div> 
+                        <div class="col-xl-9 col-lg-10=2 col-md-12 col-sm-12 pl-xl-0">  
+                        <h4 class="mb-xl-4 mb-lg-3 mb-md-3 mb-sm-2">帮助中心</h4>
+                        <p>能够解决大部分问题的方案</p>
+                        </div>
+                        </div>
+                    </div>
+                </a>    
+            </div>
+        </div>
+   </div>
+</section>
+
+ 
+<!-- FOOTER -->
+<section class="footer-section text-white">
+    <div class="container">
+            <div class="newsletter text-center">
+                <h3>您的网站正在处于 DDoS 攻击状态</h3>
+                <p>请输入您的电子邮箱，我们将尽快安排人员联系您定制防御解决方案</p>
+                <form class="footer-form" target="_blank" action="" method="post"><input type="hidden" name="token" value="">
+                    <div class="footer form-group">
+                    <input type="text" class="footer form-control" id="exampleInputEmail2" placeholder="输入您的电子邮箱" name="query">
+                    <button class="subscribe-btn button-effect" type="submit">提交</button>
+                    </div>
+                </form>    
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="footer-logo-setting col-lg-4 col-md-6 col-sm-6">
+                <div class="footer-logo">
+                    <figure class="footer-image">
+                        <img class="img-fluid" src="{$setting.web_logo}" alt="">
+                    </figure>
+                    <small>Copyright &copy; 2020-2022 Lolipa.com <br>
+                        All Rights Reserved.</small>
+                    <ul class="footer-list list-unstyled">
+                        <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="google-plus"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>  
+                </div>  
+            </div>
+            <div class="footer-hosting-setting col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-hosting">
+                    <h5>产品服务</h5>
+                    <ul class="hosting-list list-unstyled">
+                        <li><a href="/vps.html">弹性云服务器</a></li>
+                        <li><a href="/shared.html">云虚拟主机</a></li>
+                        <li><a href="/dedicated.html">独立服务器</a></li>
+                        <li><a href="/reseller.html">经销商主机</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-company-setting col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-company">
+                    <h5>关于我们</h5>
+                    <ul class="company-list list-unstyled">
+                        <li><a href="/about.html">公司简介</a></li>
+                        <li><a href="#">技术论坛</a></li>
+                        <li><a href="https://00blog.cn">零零博客</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-contact-setting col-lg-2 col-md-6 col-sm-6">
+                <div class="footer-contact">
+                    <h5>帮助与支持</h5>
+                    <ul class="contact-list list-unstyled">
+                        <li><a href="/contact.html">联系我们</a></li>
+                        <li><a href="/submitticket/index.html">提交工单</a></li>
+                        <li><a href="/submitticket/index.html">控制面板</a></li>
+                        <li><a href="/submitticket/index.html">控制面板</a>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </div>   
+</div>
+</section>
+
+<!-- FOOTER BAR -->
+<div class="footer-bar">
+    <div class="container">
+        <div class="row">
+            <div class="footer-cards col-lg-6 col-md-6 col-sm-6">
+                <small>Payment Method</small>
+                <ul class="footer-cards-list list-unstyled">
+                    <li><a href="#"><i class="fab fa-cc-paypal"></i></a></li>
+                    <li><a href="#"><i class="fab fa-cc-mastercard"></i></a></li>
+                    <li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
+                    <li><a href="#"><i class="fab fa-cc-amex"></i></a></li>
+                    <li><a href="#"><i class="fab fa-cc-discover"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-arrow col-lg-6 col-sm-6">
+                <small>Copyright &copy; 2020-2022 Lolipa Inc All rights reserved.&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank">
+粤ICP备2021020868号</a></small>
+                <a href="#main-topbar"><i class="footer-arrow-setting fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </div>
+</div> 
+
+    <!-- Header Scroll -->
+    <script>
+        const header = document.getElementById("main-header");
+const scrollUp = "scroll-up";
+const scrollDown = "scroll-down";
+let lastScroll = 0;
+
+
+ 
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= 0) {
+    header.classList.remove(scrollUp);
+    return;
+  }
+  
+  if (currentScroll > lastScroll && !header.classList.contains(scrollDown)) {
+    // down
+    header.classList.remove(scrollUp);
+    header.classList.add(scrollDown);
+  } else if (currentScroll < lastScroll && header.classList.contains(scrollDown)) {
+    // up
+    header.classList.remove(scrollDown);
+    header.classList.add(scrollUp);
+  }
+  lastScroll = currentScroll;
+});
+    </script>
+    <!-- Button -->
+    <script>
+        document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
+    </script>
+    <script src="https://cdn.staticfile.org/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+<p style="text-indent: 2em; margin-top: 30px;">
+系统将在 <span id="time">1</span> 秒钟后自动跳转至新网址，如果未能跳转，<a href="https://00blog.cn/index.php/archives/46/" title="点击访问">请点击</a>。</p>
+<script type="text/javascript">  
+    delayURL();    
+    function delayURL() { 
+        var delay = document.getElementById("time").innerHTML;
+ var t = setTimeout("delayURL()", 1000);
+        if (delay > 0) {
+            delay--;
+            document.getElementById("time").innerHTML = delay;
+        } else {
+     clearTimeout(t); 
+            window.location.href = "https://00blog.cn/index.php/archives/46/";
+        }        
+    } 
+</script>    
+</body>
+</html>
